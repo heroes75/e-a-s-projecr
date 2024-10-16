@@ -9,29 +9,22 @@ body {
     justify-content: center;
     align-items: center;
     height: 100%;
+    gap: 70px;
 }
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 360x;
-    max-width:360px;
-    min-width: 360px;
-    height: 360px;
-    max-height: 360px;
-    min-height: 360px;
-    border: 1px solid red;
+    width: 720x;
+    max-width:720px;
+    min-width: 720px;
+    max-height: 720px;
     padding: 0;
 }
 .case {
     border: 1px solid green;
-    flex-grow: 1;
+    flex-grow: 0;
+    flex-shrink: 0;
     padding: 0;
     margin: 0;
-}
-.case:hover {
-    background-color: rgb( 55, 25, 66);
-}
-.inputContainer {
-    align-self: self-start;
 }
